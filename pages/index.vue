@@ -2,7 +2,7 @@
   <div class="mb-24">
     <PagesIndexIntro class="mt-4" />
     <PagesIndexFindMe class="mt-24" />
-    <PagesIndexFeaturedProjects class="mt-24" />
+    <PagesIndexFeaturedProjects title="featured projects" class="mt-24" />
     <PagesArticlesList
       :article-limit="3"
       title="recent articles"

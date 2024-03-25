@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="uppercase mb-6">Featured Projects</h2>
+    <h2 class="uppercase mb-6">{{ title }}</h2>
     <div class="grid gap-4">
       <NuxtLink to="/projects/enrollable">
         <div
@@ -70,6 +70,7 @@
 </template>
 
 <script lang="ts" setup>
+defineProps<{ title: string }>();
 const isHovered = ref<{ relay: boolean; eable: boolean; fdh: boolean }>({
   relay: false,
   eable: false,
