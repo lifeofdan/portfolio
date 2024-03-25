@@ -1,12 +1,17 @@
 <template>
   <div>
-    <div class="navbar bg-secondary rounded">
-      <div class="flex">
-        <ul class="menu menu-horizontal px-1">
+    <div class="bg-transparent rounded">
+      <div class="flex justify-between">
+        <div class="avatar">
+          <div class="w-14 sm:w-24 rounded-full">
+            <img src="/images/profile_bg_blue_sm.jpg" />
+          </div>
+        </div>
+        <ul class="menu menu-horizontal self-center">
           <li>
             <NuxtLink to="/"> Home </NuxtLink>
           </li>
-          <li>
+          <li class="mx-2 sm:mx-4">
             <NuxtLink to="/projects"> Projects </NuxtLink>
           </li>
           <li>
