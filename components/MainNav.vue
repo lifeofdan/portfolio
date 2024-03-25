@@ -4,7 +4,10 @@
       <div class="flex justify-between">
         <div class="avatar">
           <div class="w-14 sm:w-24 rounded-full">
-            <img src="/images/profile_bg_blue_sm.jpg" />
+            <img
+              src="/images/profile_bg_blue_sm.jpg"
+              alt="Profile image with blue background"
+            />
           </div>
         </div>
         <ul class="menu menu-horizontal self-center">
