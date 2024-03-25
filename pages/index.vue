@@ -2,7 +2,7 @@
   <div class="mb-24">
     <div class="avatar">
       <div class="w-24 rounded-full">
-        <img src="https://avatars.githubusercontent.com/u/1669918?v=4" />
+        <img src="/images/profile_img_purple_bg_xs.png" />
       </div>
     </div>
 
