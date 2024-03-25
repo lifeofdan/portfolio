@@ -4,3 +4,10 @@
     <NuxtPage class="mt-8" />
   </div>
 </template>
+<script setup lang="ts">
+useHead({
+  titleTemplate: (titleChunk) => {
+    return titleChunk ? `${titleChunk} - lifeofdan` : "lifeofdan";
+  }
+});
+</script>
