@@ -4,7 +4,7 @@
       <div class="flex justify-between">
         <div class="avatar">
           <div class="w-14 sm:w-24 rounded-full">
-            <img
+            <NuxtPicture
               src="/images/profile_bg_blue_sm.jpg"
               alt="Profile image with blue background"
             />

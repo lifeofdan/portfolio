@@ -15,7 +15,7 @@
             style="max-width: 24px"
             :class="isHovered.eable ? 'animate-pulse' : ''"
           >
-            <img
+            <NuxtPicture
               class="mb-2 rounded"
               src="https://lifeofdan-public.us-ord-1.linodeobjects.com/enrollable-logo.jpg"
               alt="Enrollable logo, a form with the letter e."
@@ -36,7 +36,7 @@
             style="max-width: 24px"
             :class="isHovered.relay ? 'animate-pulse' : ''"
           >
-            <img
+            <NuxtPicture
               class="mb-2 rounded"
               src="https://lifeofdan-public.us-ord-1.linodeobjects.com/relay-logo.png"
               alt="Relay logo image a computer with a reply arrow."
@@ -57,7 +57,7 @@
             style="max-width: 24px"
             :class="isHovered.fdh ? 'animate-pulse' : ''"
           >
-            <img
+            <NuxtPicture
               class="mb-2 rounded"
               src="https://lifeofdan-public.us-ord-1.linodeobjects.com/fdh-logo.png"
               alt="Food diary helper logo."
