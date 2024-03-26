@@ -7,6 +7,9 @@
             <NuxtPicture
               src="/images/profile_bg_blue_sm.jpg"
               alt="Profile image with blue background"
+              width="96"
+              height="96"
+              format="webp"
             />
           </div>
         </div>
