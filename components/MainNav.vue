@@ -5,7 +5,7 @@
         <div class="avatar">
           <div class="w-14 sm:w-24 rounded-full">
             <NuxtImg
-              src="/images/profile_bg_blue_sm.jpg"
+              src="/images/profile_bg_blue_sm.webp"
               alt="Profile image with blue background"
               width="96"
               height="96"

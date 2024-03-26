@@ -18,7 +18,7 @@
             <NuxtPicture
               alt="Enrollable logo, a form with the letter e."
               class="mb-2 rounded"
-              src="/images/enrollable-logo.jpg"
+              src="/images/enrollable-logo.webp"
               width="24"
               height="27"
               quality="80"
@@ -41,7 +41,7 @@
           >
             <NuxtPicture
               class="mb-2 rounded"
-              src="/images/relay-logo.png"
+              src="/images/relay-logo.webp"
               alt="Relay logo image a computer with a reply arrow."
               width="24"
               height="24"
@@ -66,7 +66,7 @@
             <NuxtPicture
               alt="Food diary helper logo."
               class="mb-2 rounded"
-              src="/images/fdh-logo.png"
+              src="/images/fdh-logo.webp"
               width="24"
               height="24"
               quality="80"
