@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NuxtPicture
+    <NuxtImg
       :quality="quality"
       format="webp"
       :src="src"
