@@ -21,6 +21,7 @@
               src="/images/enrollable-logo.jpg"
               width="24"
               height="27"
+              quality="80"
             />
           </div>
         </div>
@@ -44,6 +45,7 @@
               alt="Relay logo image a computer with a reply arrow."
               width="24"
               height="24"
+              quality="80"
             />
           </div>
         </div>
@@ -67,6 +69,7 @@
               src="/images/fdh-logo.png"
               width="24"
               height="24"
+              quality="80"
             />
           </div>
         </div>
