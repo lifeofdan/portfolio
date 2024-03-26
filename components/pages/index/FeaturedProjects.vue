@@ -17,7 +17,7 @@
           >
             <NuxtPicture
               class="mb-2 rounded"
-              src="https://lifeofdan-public.us-ord-1.linodeobjects.com/enrollable-logo.jpg"
+              src="/images/enrollable-logo.jpg"
               alt="Enrollable logo, a form with the letter e."
             />
           </div>
@@ -38,7 +38,7 @@
           >
             <NuxtPicture
               class="mb-2 rounded"
-              src="https://lifeofdan-public.us-ord-1.linodeobjects.com/relay-logo.png"
+              src="/images/relay-logo.png"
               alt="Relay logo image a computer with a reply arrow."
             />
           </div>
@@ -59,7 +59,7 @@
           >
             <NuxtPicture
               class="mb-2 rounded"
-              src="https://lifeofdan-public.us-ord-1.linodeobjects.com/fdh-logo.png"
+              src="/images/fdh-logo.png"
               alt="Food diary helper logo."
             />
           </div>
