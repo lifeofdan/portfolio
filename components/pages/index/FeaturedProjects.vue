@@ -16,9 +16,11 @@
             :class="isHovered.eable ? 'animate-pulse' : ''"
           >
             <NuxtPicture
+              alt="Enrollable logo, a form with the letter e."
               class="mb-2 rounded"
               src="/images/enrollable-logo.jpg"
-              alt="Enrollable logo, a form with the letter e."
+              width="24"
+              height="27"
             />
           </div>
         </div>
@@ -40,6 +42,8 @@
               class="mb-2 rounded"
               src="/images/relay-logo.png"
               alt="Relay logo image a computer with a reply arrow."
+              width="24"
+              height="24"
             />
           </div>
         </div>
@@ -58,9 +62,11 @@
             :class="isHovered.fdh ? 'animate-pulse' : ''"
           >
             <NuxtPicture
+              alt="Food diary helper logo."
               class="mb-2 rounded"
               src="/images/fdh-logo.png"
-              alt="Food diary helper logo."
+              width="24"
+              height="24"
             />
           </div>
         </div>
