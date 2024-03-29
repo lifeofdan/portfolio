@@ -6,4 +6,4 @@ project: "fdh"
 
 # Food Diary Helper
 
-An app for checking the amount of calories in food using natural language.
+An app for checking the amount of calories in food using AI.
