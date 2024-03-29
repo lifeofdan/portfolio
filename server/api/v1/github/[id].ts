@@ -17,22 +17,25 @@ export default defineEventHandler(async (event) => {
   }
 
   try {
-    const payload: { pushed_at?: string } = await $fetch(
+    const payload = await $fetch<{ pushed_at?: string }>(
       `https://api.github.com/repos/lifeofdan/${projectName}`,
       {
         headers: {
           Authorization: `Bearer ${config.githubAccessToken}`,
-        },
-      },
+          "X-Source": "Cloudflare-Workers",
+          "User-Agent": "Lifeofdan Portfolio App"
+        }
+      }
     );
+
     return {
-      updated_at: payload.pushed_at ?? "",
+      updated_at: payload.pushed_at ?? ""
     };
   } catch (e) {
     const error = e as { name: string };
 
     return {
-      error: error,
+      error: error
     };
   }
 });
