@@ -50,14 +50,14 @@
           </div>
         </div>
       </NuxtLink>
-      <NuxtLink to="/projects/food_dairy_helper">
+      <NuxtLink to="/projects/food_diary_helper">
         <div
           class="flex justify-between border-b border-dotted hover:border-b-secondary"
           @mouseenter="hovering('fdh', true)"
           @mouseleave="hovering('fdh', false)"
         >
           <div class="self-end mb-2">
-            <p>food dairy helper</p>
+            <p>food diary helper</p>
           </div>
           <div
             style="max-width: 24px"
@@ -83,7 +83,7 @@ defineProps<{ title: string }>();
 const isHovered = ref<{ relay: boolean; eable: boolean; fdh: boolean }>({
   relay: false,
   eable: false,
-  fdh: false
+  fdh: false,
 });
 
 function hovering(project: "relay" | "eable" | "fdh", isHovering: boolean) {
