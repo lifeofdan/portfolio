@@ -1,6 +1,7 @@
 <template>
   <div>
     <NuxtImg
+      class="rounded"
       :quality="quality"
       format="webp"
       :src="src"
