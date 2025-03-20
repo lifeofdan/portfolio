@@ -4,6 +4,12 @@ export default defineNuxtConfig({
     githubAccessToken: ""
   },
 
+  nitro: {
+    prerender: {
+      autoSubfolderIndex: false
+    }
+  },
+
   app: {
     head: {
       meta: [
