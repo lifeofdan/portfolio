@@ -27,7 +27,5 @@ export default defineNuxtConfig({
     "nuxt-icon-tw",
     "@nuxt/content",
     "@nuxt/image"
-  ],
-
-  compatibilityDate: "2025-03-20"
+  ]
 });
