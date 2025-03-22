@@ -44,7 +44,7 @@
 </template>
 
 <script lang="ts" setup>
-import type { QueryBuilderParams } from "@nuxt/content/dist/runtime/types";
+import type { QueryBuilderParams } from "@nuxt/content";
 const props = defineProps<{ articleLimit?: number; title: string }>();
 const { articleLimit } = toRefs(props);
 const query: QueryBuilderParams = {
